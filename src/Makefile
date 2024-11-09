@@ -26,11 +26,11 @@ DIRS			:=
 
 # Define object file path
 
-BUILD_DIR		:=		./objects
+BUILD_DIR		?=		./objects
 
 # Define target file (minus any platform-specific extension)
 
-TARGET			:=		../beebasm
+TARGET			?=		../beebasm
 
 # Define compiler switches
 
